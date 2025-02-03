@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #CFCFCF;
+    background-image: url(images/1920x1080-aesthetic-glrfk0ntspz3tvxg.jpg);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.apply_box{
+    max-width: 300px;
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #d8d8d8;
+    backdrop-filter: blur(10px);
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 4px 3px 5px rgba(1,1,1,0.1);
+    border-radius: 15px;
+}
+
+.form_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    font: 1.0rem 'inter', sans-serif;
+    row-gap: 18px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid rgb(231, 231, 231);
+    border-radius: 20px;
+}
+
+input::placeholder{
+    padding: 5px;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid rgb(91, 50, 255);
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+button{
+    padding: 8px 20px;
+    border: none;
+    background-color: #5B32FF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+button:hover{
+    background-color: #4A2BCC;
+    transition: 0.2s ease-out;
+}
+
+.header{
+    font: 1.0rem 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
